@@ -10,7 +10,7 @@ const Header = () => (
           <img src={logo} alt="Goslett Shell Corp Logo" />
         </Link>
         <Nav>
-          <a href="https://google.ca">Shop</a>
+          <a href="https://shop.goslettshell.co">Shop</a>
           <Link 
             to="/contact"
             activeClassName="active"
