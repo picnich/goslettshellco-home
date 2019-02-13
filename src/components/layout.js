@@ -34,7 +34,7 @@ const Container = styled.div`
   padding: 0 55px;
   max-width: 960px;
   margin: 0 auto;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
