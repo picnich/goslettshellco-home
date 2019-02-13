@@ -24,7 +24,7 @@ const FooterDiv = styled.div`
         margin-top: 0;
         margin-bottom: 0.5rem;
         @media (max-width: 700px) {
-            font-size: 9px;
+            font-size: 7px;
         }
     }
 `
