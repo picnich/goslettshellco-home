@@ -38,6 +38,9 @@ const Nav = styled.nav`
       :hover {
         opacity: 1;
       }
+      @media (max-width: 700px) {
+        font-size: 10px;
+      }
     }
     .active {
       border-bottom: 1px solid white;
@@ -45,6 +48,10 @@ const Nav = styled.nav`
     }
     a:first-child {
       margin-right: 2rem;
+      @media (max-width: 700px) {
+        margin-right: 1rem;
+      }
+
     }
 `
 

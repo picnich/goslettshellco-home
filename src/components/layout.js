@@ -39,7 +39,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   @media (max-width: 700px) {
-    padding: 0 16px;
+    padding: 0 32px;
   }
 `
 
