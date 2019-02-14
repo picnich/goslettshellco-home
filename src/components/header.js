@@ -30,16 +30,16 @@ const Nav = styled.nav`
       padding-bottom: 2px;
       text-transform: uppercase;
       letter-spacing: 2px;
-      opacity: .7;
+      opacity: 1;
       text-decoration: none;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 0.875rem;
+      font-size: 10px;
       transition: .125s ease-in;
       :hover {
-        opacity: 1;
+        opacity: .7;
       }
       @media (max-width: 700px) {
-        font-size: 10px;
+        font-size: 8px;
       }
     }
     .active {

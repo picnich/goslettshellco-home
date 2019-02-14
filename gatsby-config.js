@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Goslett Shell Corp.`,
+    title: `Goslett Shell Co Ltd.`,
     description: `The website for Goslett Shell Corp.`,
     author: `@nichp`,
   },
