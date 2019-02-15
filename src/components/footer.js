@@ -15,7 +15,6 @@ const FooterDiv = styled.div`
     color: white;
     text-align: center;
     padding: 1.5em 0;
-    text-transform: uppercase;
     p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 10px;
