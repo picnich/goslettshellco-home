@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
+import Div100vh from 'react-div-100vh';
+
 
 import Header from "./header"
 import Footer from "./footer"
@@ -21,9 +23,11 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Container>
-          <main>{children}</main>
-        </Container>
+        <Div100vh>
+          <Container>
+            <main>{children}</main>
+          </Container>
+        </Div100vh>
         <Footer />
       </>
     )}
@@ -34,7 +38,7 @@ const Container = styled.div`
   padding: 0 55px;
   max-width: 960px;
   margin: 0 auto;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
