@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
 
 const Container = styled.div`
   padding: 0 55px;
-  max-width: 960px;
+  max-width: 720px;
   margin: 0 auto;
   height: 100%;
   display: flex;
