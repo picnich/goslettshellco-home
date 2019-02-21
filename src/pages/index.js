@@ -16,24 +16,24 @@ const IndexPage = () => (
 
 const Title = styled.h1`
   color: white;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   margin:0;
 ` 
 
 const Phonetic = styled.h3`
-  font-size: 20px;
+  font-size: 1rem;
   margin:0;
   margin-top: 4px;
   opacity: .7;
 `
 const Grammer = styled.h6`
-  font-size: 1rem;
+  font-size: 0.875rem;
   margin:0;
   margin-top: 1rem;
   font-style: italic;
 `
 const Definition = styled.p`
-  font-size: 1rem;
+  font-size: 0.875rem;
   padding-left: 1.25rem;
   opacity: .7;
     @media (max-width: 700px) {
