@@ -15,7 +15,7 @@ const ContactPage = () => (
 
 const CatTitle = styled.h2`
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'oggroman', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -24,14 +24,14 @@ const CatTitle = styled.h2`
 
 const SmallTitle = styled.h3`
     text-align: center;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     letter-spacing: 1px;
     opacity: .7;
     font-weight: 100;
   a {
-      color: white;
+      color: black;
   } 
   @media (max-width: 700px) {
     font-size: 0.875rem;

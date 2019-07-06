@@ -25,7 +25,7 @@ const Header = () => (
 
 const Nav = styled.nav`
     a {
-      color: white;
+      color: black;
       border-bottom: 1px solid transparent;
       padding-bottom: 2px;
       text-transform: uppercase;
@@ -43,7 +43,7 @@ const Nav = styled.nav`
       }
     }
     .active {
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid black;
       padding-bottom: 2px;
     }
     a:first-child {

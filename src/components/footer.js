@@ -12,7 +12,7 @@ const FooterDiv = styled.div`
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1.5em 0;
     p {
