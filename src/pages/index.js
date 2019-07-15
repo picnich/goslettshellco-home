@@ -15,7 +15,7 @@ const IndexPage = () => (
 )
 
 const Title = styled.h1`
-  color: black;
+  color: white;
   font-size: 1.8rem;
   margin:0;
 ` 

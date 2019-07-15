@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components";
 import { Link } from "gatsby"
-import logo from '../images/logo-icon.jpg';
+import logo from '../images/logo-icon_dark.png';
 
 const Header = () => (
     <TopHeader>
@@ -25,7 +25,7 @@ const Header = () => (
 
 const Nav = styled.nav`
     a {
-      color: black;
+      color: white;
       border-bottom: 1px solid transparent;
       padding-bottom: 2px;
       text-transform: uppercase;
@@ -43,7 +43,7 @@ const Nav = styled.nav`
       }
     }
     .active {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid white;
       padding-bottom: 2px;
     }
     a:first-child {
